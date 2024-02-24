@@ -9,3 +9,4 @@ runs:
   steps:
     - name: Install docker-compose from ubuntu repositories
       run: sudo apt install podman-compose -y
+      shell: bash
