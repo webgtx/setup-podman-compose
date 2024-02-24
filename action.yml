@@ -1,4 +1,6 @@
 name: Setup Podman Compose
+description: Set up your GitHub Actions workflow with a latest stable podman-compose
+
 
 branding:
   icon: file-text
