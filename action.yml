@@ -7,6 +7,12 @@ branding:
 runs:
   using: "composite"
   steps:
-    - name: Install docker-compose from ubuntu repositories
-      run: sudo apt install podman-compose -y
+    - name: Install podman-compose from ubuntu repositories
+      run: sudo curl -o /usr/local/bin/podman-compose https://raw.githubusercontent.com/containers/podman-compose/devel/podman_compose.py
       shell: bash
+
+    - name: Make podman-compose executable
+      run: sudo chmod +x /usr/local/bin/podamn-compose
+      shell: bash
+
+
