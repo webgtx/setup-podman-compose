@@ -1,0 +1,11 @@
+name: Setup Podman Compose
+
+branding:
+  icon: file-text
+  color: green
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install docker-compose from ubuntu repositories
+      run: sudo apt install podman-compose -y
