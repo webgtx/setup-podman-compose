@@ -12,7 +12,7 @@ runs:
       shell: bash
 
     - name: Make podman-compose executable
-      run: sudo chmod +x /usr/local/bin/podamn-compose
+      run: sudo chmod +x /usr/local/bin/podman-compose
       shell: bash
 
 
